@@ -13,44 +13,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1470471308632983');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1470471308632983&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 
-            <script>
-            var META_PIXEL_ID = "1096236949974292";
-            !(function(f, b, e, v, n, t, s) {
-                if (f.fbq) return;
-                n = f.fbq = function() {
-                    n.callMethod ?
-                        n.callMethod.apply(n, arguments) :
-                        n.queue.push(arguments);
-                };
-                if (!f._fbq) f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = "2.0";
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s);
-            })(
-                window,
-                document,
-                "script",
-                "https://connect.facebook.net/en_US/fbevents.js",
-            );
-            fbq("init", META_PIXEL_ID);
-            fbq("track", "PageView");
-        </script>
-        <noscript>
-            <img id="dl3d-mpx" height="1" width="1" style="display: none" alt="" />
-            <script>
-                document.getElementById("dl3d-mpx").src =
-                    "https://www.facebook.com/tr?id=" +
-                    META_PIXEL_ID +
-                    "&ev=PageView&noscript=1";
-            </script>
-        </noscript>
+
     
     <style>
         :root {
@@ -648,13 +630,12 @@
 
         .dl3d-cta-btn.dl3d-cta-link {
             background: linear-gradient(180deg, #ffb347, #ff7b00 55%, #e85d04);
-            ;
             color: #fff;
             box-shadow: 0 2px 0 rgba(255, 255, 255, .35) inset, 0 12px 30px rgba(255, 184, 0, .45);
-            animation: dl3d-pulseGold 2s infinite;
+            animation: dl3d-pulseOrange 2s infinite;
         }
 
-        @keyframes dl3d-pulseGold {
+        @keyframes dl3d-pulseOrange {
             0% {
                 box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset, 0 0 0 0 rgba(34, 158, 217, 0.5);
             }
@@ -850,7 +831,7 @@
                         <p class="dl3d-trader-name">
                             MTK786                        </p>
                     </div>
-                    <div class="dl3d-badge" style="display: ;">
+                    <div class="dl3d-badge" >
                         <span class="dl3d-live-dot"></span>
                         MTK786                    </div>
                 </div>
